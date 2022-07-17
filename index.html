@@ -13,7 +13,7 @@
                     document.querySelector('#feedback1').innerHTML = "Correct!";
                 });
 
-                let correct = document.querySelector('.incorrect');
+                let incorrects = document.querySelector('.incorrect');
                 for(let i = 0; i < incorrects.length; i++) {
                     incorrects[i].addEventListener('click', function() {
                         incorrects.style.backgroundColor = 'red';
